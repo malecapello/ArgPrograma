@@ -1,0 +1,56 @@
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+body {
+background-color: gray;
+}
+
+h1 {
+text-align: center;
+}
+
+.contenedor { 
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+
+
+}
+
+.contenedor input {
+width: 200px;
+height: 3rem;
+margin: auto;
+margin-top: 1rem;
+background-color:darkolivegreen;
+}
+
+::placeholder {
+color: beige;
+}
+
+button {
+border-radius: 10px;
+border: solid 2px black;
+width: 150px;
+margin: auto;
+padding: 10px;
+margin-top: 10px;
+cursor: pointer;
+font-weight: 500;
+background-color:darkolivegreen;
+
+}
+
+button:hover {
+opacity: 0.5;
+}
+
+p {
+margin: auto;
+margin-top: 1rem;
+}
