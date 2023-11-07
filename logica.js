@@ -34,31 +34,11 @@ document.getElementById('dividir').addEventListener('click', function () {
   }
 });
 
-
-// resultadoSpan.textContent = resultado;
-// callback('Operación realizada correctamente');
-// ;
-
-// document.getElementById('sumar').addEventListener('click', function () {
-// performOperation('sumar', (message) => {
-//   alert(message);
-// });
-// });
-
-// document.getElementById('restar').addEventListener('click', function () {
-// performOperation('restar', (message) => {
-//   alert(message);
-// });
-// });
-
-// document.getElementById('multiplicar').addEventListener('click', function () {
-// performOperation('multiplicar', (message) => {
-//   alert(message);
-// });
-// });
-
-// document.getElementById('dividir').addEventListener('click', function () {
-// performOperation('dividir', (message) => {
-//   alert(message);
-// });
-// });
+function suma (a,b,callback){
+  let c = a +b;
+  callback();
+  }
+  
+  suma(1,2,function(){
+  console.log("La suma es 3");
+  });
